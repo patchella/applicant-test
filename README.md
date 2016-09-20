@@ -1,2 +1,2 @@
 # Programmer/Analyst PHP Test Application
-Clone the repository, make your changes, and then submit a pull request
+Fork the repository, make your changes, and then notify your contact with the location of your fork.
