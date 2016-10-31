@@ -8,7 +8,7 @@
                     </strong>
                 </div>
                 <div class="col-md-6">
-                    <input type="text" class="form-control" name="CustomerTitle">
+                    <input type="text" class="form-control" name="CustomerTitle" maxLength="30">
                 </div>
 </div>
 <div class="row pad-bottom">
@@ -19,7 +19,7 @@
 					<span style="color:red">*</span>
                 </div>
                 <div class="col-md-6">
-                    <input type="text" required class="form-control" name="CustomerName">
+                    <input type="text" required class="form-control" name="CustomerName" maxLength="40">
                 </div>
             </div>
 <div class="row pad-bottom">
@@ -29,7 +29,7 @@
                     </strong>
                 </div>
                 <div class="col-md-6">
-                    <input type="text" class="form-control"  name="Address">
+                    <input type="text" class="form-control"  name="Address" maxLength="60">
                 </div>
 </div>
             <div class="row pad-bottom">
@@ -39,7 +39,7 @@
                     </strong>
                 </div>
                 <div class="col-md-6">
-                    <input type="text" class="form-control"  name="City">
+                    <input type="text" class="form-control"  name="City" maxLength="20">
                 </div>
             </div>
             <div class="row pad-bottom">
@@ -67,7 +67,7 @@
                     </strong>
                 </div>
                 <div class="col-md-6">
-                    <input type="text" class="form-control" name="PostalCode" >
+                    <input type="text" class="form-control" name="PostalCode"  maxLength="10">
                 </div>
             </div>
             <div class="row pad-bottom">
@@ -95,7 +95,7 @@
 					<span style="color:red">*</span>
                 </div>
                 <div class="col-md-6">
-                    <input type="text" required class="form-control"  name="Email">
+                    <input type="text" required class="form-control"  name="Email" maxLength="60">
                 </div>
             </div>
             <div class="row pad-bottom">
@@ -106,7 +106,7 @@
 					<span style="color:red">*</span>
                 </div>
                 <div class="col-md-6">
-                    <input type="text" class="form-control" ' required name="CreatedBy">
+                    <input type="text" class="form-control" required name="CreatedBy" maxLength="30">
                 </div>
   </div>
 

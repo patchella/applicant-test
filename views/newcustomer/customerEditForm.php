@@ -8,7 +8,7 @@
                     </strong>
                 </div>
                 <div class="col-md-6">
-                    <input type="text" value="<?php echo $customer->title ?>" class="form-control" name="CustomerTitle">
+                    <input type="text" value="<?php echo $customer->title ?>" class="form-control" name="CustomerTitle" maxLength="30">
                 </div>
 </div>
 <div class="row pad-bottom">
@@ -18,7 +18,7 @@
                     </strong>
                 </div>
                 <div class="col-md-6">
-                    <input type="text" value ='<?php echo $customer->name ?>' required class="form-control" name="CustomerName">
+                    <input type="text" value ='<?php echo $customer->name ?>' required class="form-control" name="CustomerName" maxLength="40">
                 </div>
             </div>
 <div class="row pad-bottom">
@@ -28,7 +28,7 @@
                     </strong>
                 </div>
                 <div class="col-md-6">
-                    <input type="text" class="form-control" value ='<?php echo $customer->address ?>' name="Address">
+                    <input type="text" class="form-control" value ='<?php echo $customer->address ?>' name="Address" maxLength="60">
                 </div>
 </div>
             <div class="row pad-bottom">
@@ -38,7 +38,7 @@
                     </strong>
                 </div>
                 <div class="col-md-6">
-                    <input type="text" class="form-control" value ='<?php echo $customer->city ?>' name="City">
+                    <input type="text" class="form-control" value ='<?php echo $customer->city ?>' name="City" maxLength="20">
                 </div>
             </div>
             <div class="row pad-bottom">
@@ -65,7 +65,7 @@
                     </strong>
                 </div>
                 <div class="col-md-6">
-                    <input type="text" class="form-control" name="PostalCode" value ='<?php echo $customer->postalCode ?>'>
+                    <input type="text" class="form-control" name="PostalCode" value ='<?php echo $customer->postalCode ?>' maxLength="10">
                 </div>
             </div>
             <div class="row pad-bottom">
@@ -91,7 +91,7 @@
                     </strong>
                 </div>
                 <div class="col-md-6">
-                    <input type="text" required class="form-control" value ='<?php echo $customer->email ?>' name="Email">
+                    <input type="text" required class="form-control" value ='<?php echo $customer->email ?>' name="Email" maxLength="60">
                 </div>
             </div>
             <div class="row pad-bottom">
@@ -101,7 +101,7 @@
                     </strong>
                 </div>
                 <div class="col-md-6">
-                    <input type="text" class="form-control" required name="ModifiedBy">
+                    <input type="text" class="form-control" required name="ModifiedBy" maxLength="30">
                 </div>
   </div>
 
