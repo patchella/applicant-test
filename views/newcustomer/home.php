@@ -16,6 +16,7 @@
                     <strong>
                        Customer Name
                     </strong>
+					<span style="color:red">*</span>
                 </div>
                 <div class="col-md-6">
                     <input type="text" required class="form-control" name="CustomerName">
@@ -46,6 +47,7 @@
                     <strong>
                        State
                     </strong>
+					<span style="color:red">*</span>
                 </div>
                 <div class="col-md-6">
                     <select required  name=" state" class="form-control">
@@ -73,6 +75,7 @@
                     <strong>
                        Country
                     </strong>
+					<span style="color:red">*</span>
                 </div>
                 <div class="col-md-6">
                     <select required name="country" class="form-control" >
@@ -89,6 +92,7 @@
                     <strong>
                        Email
                     </strong>
+					<span style="color:red">*</span>
                 </div>
                 <div class="col-md-6">
                     <input type="text" required class="form-control"  name="Email">
@@ -99,6 +103,7 @@
                     <strong>
                        Created By
                     </strong>
+					<span style="color:red">*</span>
                 </div>
                 <div class="col-md-6">
                     <input type="text" class="form-control" ' required name="CreatedBy">
@@ -106,6 +111,6 @@
   </div>
 
 <input type="submit" name="insert" class="btn btn-primary" value="Add" text="Insert" /> 
-<a>Cancel</a> 
+<a href="index.php">Cancel</a> 
 </form>
  </div>

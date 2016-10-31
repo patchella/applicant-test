@@ -107,6 +107,6 @@
 
 <input type="hidden" name="CustomerID" value='<?php echo $customer->id ?>'>
 <input type="submit" name="update" value="Update" class="btn btn-primary" text="Update"/> 
-<a>Cancel</a> 
+<a href="index.php?controller=newCustomer&action=customerList">Cancel</a> 
 </form>
  </div>
